@@ -341,6 +341,7 @@ static int * Vec_MemHashLookup( Vec_Mem_t * p, word * pEntry )
             return pSpot;
     return pSpot;
 }
+#if 0
 static void Vec_MemHashProfile( Vec_Mem_t * p )
 {
     int e;
@@ -354,6 +355,7 @@ static void Vec_MemHashProfile( Vec_Mem_t * p )
     }
     printf( "\n" );
 }
+#endif
 static void Vec_MemHashResize( Vec_Mem_t * p )
 {
     word * pEntry;
